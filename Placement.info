@@ -1,0 +1,36 @@
+﻿<Placement>
+    <Match ContentType="Blog">
+        <Place Parts_Common_Metadata="-" />
+        <Place Parts_Blogs_Blog_Description="-" />
+        <Place Parts_RoutableTitle="-" />
+        <Place Parts_Tags_ShowTags="-" />
+        <Place Parts_Title="-" />
+    </Match>
+
+    <Match ContentType="Page">
+        <Place Parts_Common_Metadata="-" />
+        <Place Parts_RoutableTitle="-" />
+        <Place Parts_Title="-" />
+    </Match>
+
+    <Match DisplayType="Summary">
+        <Place Parts_ImageGallery="-" />
+        <Place Parts_Comments_Count="-" />
+        <Place Parts_Common_Metadata="-" />
+        <Place Parts_Tags_ShowTags="-" />
+    </Match>
+
+    <Match DisplayType="Detail">
+        <Place Parts_CommentForm="-" />
+        <Place Parts_ImageGallery="-" />
+        <Place Parts_ListOfComments="-" />
+        <Place Parts_Tags_ShowTags="-" />
+    </Match>
+
+    <Match ContentType="Link">
+        <Place Parts_Common_Metadata="-" />
+        <Place Parts_Common_Metadata_Summary="-" />
+        <Place Parts_RoutableTitle="-" />
+    </Match>
+</Placement>
+

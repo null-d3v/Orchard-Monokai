@@ -1,0 +1,28 @@
+@{ 
+    Orchard.ContentManagement.ContentItem contentItem =
+        Model.ContentPart.ContentItem;
+    var bodyHtml = Model.Html.ToString();
+    var moreIndex = bodyHtml.IndexOf("<!--more-->");
+    if (moreIndex != -1)
+    {
+        bodyHtml = bodyHtml.Substring(0, moreIndex);
+    }
+    else
+    {
+        var firstParagraphIndex = bodyHtml.IndexOf("<p>");
+        var firstEndParagraphIndex = bodyHtml.IndexOf("</p>");
+        if (firstParagraphIndex >=0 &&
+            firstEndParagraphIndex > firstParagraphIndex)
+        {
+            bodyHtml = bodyHtml.Substring(
+                firstParagraphIndex,
+                firstEndParagraphIndex -
+                    firstParagraphIndex + 4);
+        }
+    }
+    var body = new HtmlString(bodyHtml); 
+}
+
+@body
+
+<p>@Html.ItemDisplayLink(T("Would you like to know more?").ToString(), contentItem)</p>

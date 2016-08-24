@@ -1,0 +1,7 @@
+﻿@{
+    var published = Model.ContentPart.PublishedUtc.Date;
+}
+
+<time class="published">
+    @published.ToString("yyyy")-@published.ToString("MM")-@published.ToString("dd")
+</time>
