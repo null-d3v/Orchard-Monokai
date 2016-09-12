@@ -1,28 +1,24 @@
-$(function()
+(function()
 {
-    var $header = $("#header");
-    var $window = $(window);
+    var header = document.getElementById("header");
 
-    var headerHeight = $header.outerHeight();
-    var headerY = $header.outerHeight();
-    var scrollY = $window.scrollTop();
+    var headerHeight = header.offsetHeight;
+    var headerY = headerHeight;
+    var scrollY = document.body.scrollTop;
 
-    $window.scroll(function()
-    {
-        headerY += scrollY - $window.scrollTop();
-        if (headerY > headerHeight)
+    window.addEventListener("scroll", function()
         {
-            headerY = headerHeight;
-        }
-        else if (headerY < 0)
-        {
-            headerY = 0;
-        }
-        $header.css(
-        {
-            position: "fixed",
-            top: headerY - headerHeight,
+            headerY += scrollY - document.body.scrollTop;
+            if (headerY > headerHeight)
+            {
+                headerY = headerHeight;
+            }
+            else if (headerY < 0)
+            {
+                headerY = 0;
+            }
+            header.style.transform =
+                "translateY(" + (headerY - headerHeight) + "px)";
+            scrollY = document.body.scrollTop;
         });
-        scrollY = $window.scrollTop();
-    });
-});
+})();
