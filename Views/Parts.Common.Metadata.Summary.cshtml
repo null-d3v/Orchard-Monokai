@@ -1,7 +1,7 @@
-﻿@{
-    var published = Model.ContentPart.PublishedUtc.Date;
+@{
+    var created = Model.ContentPart.CreatedUtc.Date;
 }
 
-<time class="published">
-    @published.ToString("yyyy")-@published.ToString("MM")-@published.ToString("dd")
+<time class="created">
+    @created.ToString("yyyy")-@created.ToString("MM")-@created.ToString("dd")
 </time>
