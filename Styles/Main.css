@@ -17,20 +17,20 @@
 
     .menu-main-menu
     {
-		padding: 0 !important;
-		width: 91px !important;
+        padding: 0 !important;
+        width: 91px !important;
     }
 
     .menu-main-menu li address
     {
-    	width: 30px !important;
+        width: 30px !important;
     }
 
     .menu-main-menu li a
     {
         font-size: 27px !important;
         line-height: 30px !important;
-		margin-left: 4px !important;
+        margin-left: 4px !important;
     }
 
     .menu-main-menu li.first a
@@ -57,13 +57,13 @@
 
 *
 {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 a
 {
-	color: #66D9EF;
-	text-decoration: none;
+    color: #66D9EF;
+    text-decoration: none;
 }
 
 a:hover
@@ -73,97 +73,98 @@ a:hover
 
 body
 {
-  	background: #272822;
-  	color: #EEEEEE;
-  	font-family: Monospace;
-	font-size: 16px;
-	margin: 0;
-	min-width: 320px;
+      background: #272822;
+      color: #EEEEEE;
+      font-family: Monospace;
+    font-size: 16px;
+    margin: 0;
+    min-width: 320px;
 }
 
 h1, h2, h3, h4, h5, h6
 {
     font-weight: normal;
-	margin: 10px 0;
+    margin: 10px 0;
 }
 
 h1
 {
-	font-size: 35px;
+    font-size: 35px;
 }
 
 html, #footer, #header
 {
-	background-color: #171714;
-	color: #EEEEEE;
+    background-color: #171714;
+    color: #EEEEEE;
 }
 
 #content
 {
-	margin: 75px 0 0 0;
+    margin: 75px 0 0 0;
     padding: 15px 0 0 0;
 }
 
 #footer .copyright p
 {
     margin: 20px 0 0 0;
-	text-align: right;
+    text-align: right;
 }
 
 #header
 {
-	height: 75px;
+    height: 75px;
     min-width: 300px;
-	padding: 5px 0px;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 100;
+    padding: 5px 0px;
+    position: fixed;
+    top: 0;
+    transform: translateZ(0);
+    width: 100%;
+    z-index: 100;
 }
 
 #navigation
 {
-	float: right;
-	overflow: hidden;
+    float: right;
+    overflow: hidden;
 }
 
 .column
 {
-	display: inline;
-	float: left;
-	padding: 0px;
-	position: relative;
+    display: inline;
+    float: left;
+    padding: 0px;
+    position: relative;
 }
 
 .column-single
 {
-	width: 33%;
+    width: 33%;
 }
 
 .column-double
 {
-	width: 66%;
+    width: 66%;
 }
 
 .column-triple
 {
-	width: 100%;
+    width: 100%;
 }
 
 .column:after, .container:after
 {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 .container
 {
-	margin: 0 auto;
-	max-width: 675px;
-	width: 80%;
+    margin: 0 auto;
+    max-width: 675px;
+    width: 80%;
 }
 
 .content-item
@@ -188,53 +189,53 @@ html, #footer, #header
 
 .content-items
 {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .logo
 {
-	font-size: 40px;
-	font-weight: normal;
-	padding: 0;
+    font-size: 40px;
+    font-weight: normal;
+    padding: 0;
 }
 
 .logo a
 {
-	text-decoration: none;
-	color: #A6E22E;
+    text-decoration: none;
+    color: #A6E22E;
 }
 
 .menu-main-menu
 {
-	float: right;
-	list-style: none;
-	margin: 0px;
-	padding: 20px 0 25px 0;
+    float: right;
+    list-style: none;
+    margin: 0px;
+    padding: 20px 0 25px 0;
 }
 
 .menu-main-menu li 
 {
-	display: block;
-	float: left;
+    display: block;
+    float: left;
 }
 
 .menu-main-menu li a 
 {
-	display: block;
-	font-size: 34px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 35px;
-	margin-left: 20px;
-	text-align: center;
-	text-decoration: none;
+    display: block;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .menu-main-menu li.current a 
 {
-	color: #3399CC;
+    color: #3399CC;
 }
 
 .menu-main-menu li.first a
@@ -254,22 +255,22 @@ html, #footer, #header
 
 .menu-main-menu li a .fa
 {
-	font-size: 35px;
+    font-size: 35px;
 }
 
 .pager
 {
     font-weight: bold;
-	line-height: 25px;
-	list-style: none;
-	text-align: right;
+    line-height: 25px;
+    list-style: none;
+    text-align: right;
 }
 
 .pager li
 {
-	display: inline-block;
-	margin-left: 5px;
-	text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
     width: 45px;
 }
 
@@ -278,7 +279,7 @@ html, #footer, #header
     font-size: 35px;
 }
 
-.published
+.created
 {
-	color: #FD971F;
+    color: #FD971F;
 }
