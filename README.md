@@ -1,2 +1,2 @@
-# Orchard-Sublime
+# Orchard-Monokai
 An Orchard theme modeled after Sublime Text.
